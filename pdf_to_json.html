@@ -156,7 +156,7 @@
          * @param {string} text - The full text extracted from the PDF.
          */
         async function parseResumeWithAI(text) {
-            const apiKey = "AIzaSyDbLcVdoRkhewbs8zPl_WgBwRyZeBBv9PM"; // The environment will provide the key
+            const apiKey = "api_key"; // The environment will provide the key
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
             // This schema tells the AI exactly how to structure the JSON output.
@@ -248,3 +248,4 @@
 
 </body>
 </html>
+
